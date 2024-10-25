@@ -1,13 +1,15 @@
 # pihole-whitelist
-This was a quick project to make a list of commonly whitelisted domains derived from this pihole fourm post: https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212)https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+
+This was a quick project to make a list of commonly whitelisted domains derived from this pihole fourm post: <https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212)https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212>
 
 The raw whitelist is here
-https://raw.githubusercontent.com/cedwards4038/pihole-whitelist/main/whitelist.txt
+<https://raw.githubusercontent.com/cedwards4038/pihole-whitelist/main/whitelist.txt>
 
-My Version for AdGuard is Here: https://github.com/cedwards4038/adguard-whitelist/tree/main
+My Version for AdGuard is Here: <https://github.com/cedwards4038/adguard-whitelist/tree/main>
 
 You should be able to copy this codeblock to add everything pihole whitelist at once
-```
+
+```SHELL
 #Reddit
 pihole --white-regex [a-z]\.thumbs\.redditmedia\.com
 pihole --white-regex (\.|^)redd\.it$
@@ -443,6 +445,3 @@ cds.s5x3j6q5.hwcdn.net
 analytics.svt.se
 
 ```
-
-
-
